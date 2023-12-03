@@ -1,0 +1,6 @@
+00500513 //addi a0,zero,5 result=0x5 
+00700593 //addi a1,zero,7 result=0x7 
+00b50633 //add a2,a0,a1 result=0xc 
+00c02223 //sw a2,4(zero) result=0xc 
+ff460613 //addi a2,a2,-12 result=0x0 
+00402683 //lw a3,4(zero) result=0xc 
