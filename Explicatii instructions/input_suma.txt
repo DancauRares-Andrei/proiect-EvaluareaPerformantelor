@@ -1,0 +1,6 @@
+00500293 //addi t0,zero,5 result=0x5 
+00100393 //addi t2,zero,1 result=0x1 
+00730333 //add t1,t1,t2 result=0x1 la prima buclă 0x3 0x6 0xa 
+00138393 //addi t2,t2,1 result=0x1 0x2 0x3 0x4 0x5 intercalat cu blt și add-ul precedent 
+fe53cce3 //blt t2,t0,-4 result=0x8 la toate buclele, apoi 0x0 
+00000313 //addi t1 zero 0 result=0x0 verificat

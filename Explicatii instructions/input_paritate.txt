@@ -1,0 +1,6 @@
+00900513 //addi a0,zero,9 result=0x9 
+00157293 //andi t0,a0,1 result=0x1 
+00028663 //beq t0,zero,6 result=0x0 
+3e700293 //addi t0,zero,999 result=0x3e7
+0080036f //jal t1, 4 result=0x18 
+37800293 //addi t0,zero,888 result nu apare pentru ca nu se executa aceasta instructiune
